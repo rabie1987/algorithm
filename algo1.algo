@@ -1,0 +1,25 @@
+ALGORITHM algorithm_name
+VAR
+    S:STRING;
+    n:INTEGER;
+    countcharacter:INTEGER;
+    countwords:INTEGER;
+    countvowels:INTEGER;
+BEGIN
+   for n FROM 1 to S.length step 1 do
+   if S[n] in [a...z] or [A...Z]
+   countcharacter:=countcharacter+1
+   wrtite(countcharacter)
+   end_for_countcharacter
+   for s FROM 1 to S.length step 1 do
+   if s[n] = " "
+   countwords:=countwords+1
+   wrtite(countwords)
+   end_for_countwords
+   for s FROM 1 TO S.length step 1 do
+   if (S == 'a' OR S == 'e' OR S == 'i' OR S == 'o' OR s == 'u')
+   countvowels:=countvowels+1
+   write(countvowels)
+   end_for_countvowels
+
+END
